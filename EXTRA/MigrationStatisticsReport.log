@@ -1,0 +1,26 @@
+2019-04-22 11:35:38,331 [Worker-3] INFO  com.tibco.bw.migration.stats  - Migrating Business Works 5.x projects to version 6 using arguments:: 
+[Target Project Directory: d:\PocForBridgesAndOauth/MigrationPOC ]
+[Source Project Directory: D:\PocForBridgesAndOauth\MigrationPOC ]
+[Project Name: MigrationPOC ]
+
+
+------------------ Migration Statistics ----------------
+
+Project Migration Time [Millisecond]: 83953
+
+Process Migration Time [Millisecond]
+1. D:/PocForBridgesAndOauth/MigrationPOC/BusinessProcesses/MainProcesses/PollForLegder_File.process: 1887
+2. D:/PocForBridgesAndOauth/MigrationPOC/BusinessProcesses/SubProcesses/SendMsg_JMS.process: 814
+3. D:/PocForBridgesAndOauth/MigrationPOC/BusinessProcesses/SubProcesses/EmpDetails_DB.process: 860
+4. D:/PocForBridgesAndOauth/MigrationPOC/BusinessProcesses/SubProcesses/Onboarding.process: 499
+5. D:/PocForBridgesAndOauth/MigrationPOC/BusinessProcesses/SubProcesses/ActivitiesNotSupportedInBWCE.process: 2593
+6. D:/PocForBridgesAndOauth/MigrationPOC/BusinessProcesses/SubProcesses/Onboarding_New.process: 464
+7. D:/PocForBridgesAndOauth/MigrationPOC/BusinessProcesses/MainProcesses/SendEmpDetails_Soap.process: 586
+8. D:/PocForBridgesAndOauth/MigrationPOC/BusinessProcesses/SubProcesses/PublishMsg_RV.process: 495
+9. D:/PocForBridgesAndOauth/MigrationPOC/Services/EmpMgrOperation.process: 738
+
+Artifacts Migrated [Count]
+1. Process Migrated:9
+2. WSDL Migrated:2
+3. Schema Migrated:0
+4. XSLT Migrated:1

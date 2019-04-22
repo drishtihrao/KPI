@@ -1,0 +1,42 @@
+2019-04-22 11:34:16,741 [Worker-3] INFO  com.tibco.bw.migration.logger  - Migrating XML Schema resource :D:/PocForBridgesAndOauth/MigrationPOC/Schemas/ae/baseDocument.xsd
+2019-04-22 11:34:16,744 [Worker-3] INFO  com.tibco.bw.migration.logger  - Migrating XML Schema resource :D:/PocForBridgesAndOauth/MigrationPOC/Schemas/ae2xsd.xsd
+2019-04-22 11:34:17,970 [Worker-3] INFO  com.tibco.bw.migration.logger  - Creating JMS Shared Resource for URI : d:/PocForBridgesAndOauth/MigrationPOC/Connections/JMS-Connection.sharedjmscon
+2019-04-22 11:35:25,652 [Worker-3] INFO  com.tibco.bw.migration.logger  - Migrating Processes..
+2019-04-22 11:35:25,657 [Worker-3] INFO  com.tibco.bw.migration.logger  - Process Migration Order is => 
+2019-04-22 11:35:25,657 [Worker-3] INFO  com.tibco.bw.migration.logger  - BusinessProcesses/MainProcesses/PollForLegder_File.process
+2019-04-22 11:35:25,657 [Worker-3] INFO  com.tibco.bw.migration.logger  - BusinessProcesses/MainProcesses/SendEmpDetails_Soap.process
+2019-04-22 11:35:25,657 [Worker-3] INFO  com.tibco.bw.migration.logger  - BusinessProcesses/SubProcesses/ActivitiesNotSupportedInBWCE.process
+2019-04-22 11:35:25,657 [Worker-3] INFO  com.tibco.bw.migration.logger  - BusinessProcesses/SubProcesses/EmpDetails_DB.process
+2019-04-22 11:35:25,657 [Worker-3] INFO  com.tibco.bw.migration.logger  - BusinessProcesses/SubProcesses/Onboarding.process
+2019-04-22 11:35:25,657 [Worker-3] INFO  com.tibco.bw.migration.logger  - BusinessProcesses/SubProcesses/Onboarding_New.process
+2019-04-22 11:35:25,657 [Worker-3] INFO  com.tibco.bw.migration.logger  - BusinessProcesses/SubProcesses/PublishMsg_RV.process
+2019-04-22 11:35:25,657 [Worker-3] INFO  com.tibco.bw.migration.logger  - BusinessProcesses/SubProcesses/SendMsg_JMS.process
+2019-04-22 11:35:25,657 [Worker-3] INFO  com.tibco.bw.migration.logger  - Services/EmpMgrOperation.process
+2019-04-22 11:35:26,498 [Worker-3] INFO  com.tibco.bw.migration.logger  - Migrating process - BusinessProcesses/MainProcesses/PollForLegder_File.process
+2019-04-22 11:35:26,502 [Worker-3] INFO  com.tibco.bw.migration.logger  - The process "BusinessProcesses.MainProcesses.PollForLegder_File" migration started
+2019-04-22 11:35:27,527 [Worker-3] INFO  com.tibco.bw.migration.logger  - The process "BusinessProcesses.MainProcesses.PollForLegder_File" migration done.
+2019-04-22 11:35:28,606 [Worker-3] INFO  com.tibco.bw.migration.logger  - Migrating process - BusinessProcesses/MainProcesses/SendEmpDetails_Soap.process
+2019-04-22 11:35:28,610 [Worker-3] INFO  com.tibco.bw.migration.logger  - The process "BusinessProcesses.MainProcesses.SendEmpDetails_Soap" migration started
+2019-04-22 11:35:28,735 [Worker-3] INFO  com.tibco.bw.migration.logger  - The process "BusinessProcesses.MainProcesses.SendEmpDetails_Soap" migration done.
+2019-04-22 11:35:29,386 [Worker-3] INFO  com.tibco.bw.migration.logger  - Migrating process - BusinessProcesses/SubProcesses/ActivitiesNotSupportedInBWCE.process
+2019-04-22 11:35:29,390 [Worker-3] INFO  com.tibco.bw.migration.logger  - The process "BusinessProcesses.SubProcesses.ActivitiesNotSupportedInBWCE" migration started
+2019-04-22 11:35:31,520 [Worker-3] INFO  com.tibco.bw.migration.logger  - The process "BusinessProcesses.SubProcesses.ActivitiesNotSupportedInBWCE" migration done.
+2019-04-22 11:35:32,213 [Worker-3] INFO  com.tibco.bw.migration.logger  - Migrating process - BusinessProcesses/SubProcesses/EmpDetails_DB.process
+2019-04-22 11:35:32,218 [Worker-3] INFO  com.tibco.bw.migration.logger  - The process "BusinessProcesses.SubProcesses.EmpDetails_DB" migration started
+2019-04-22 11:35:32,285 [Worker-3] WARN  com.tibco.bw.migration.logger  - Having trouble getting database column metadata for activity JDBC Query
+2019-04-22 11:35:32,694 [Worker-3] INFO  com.tibco.bw.migration.logger  - The process "BusinessProcesses.SubProcesses.EmpDetails_DB" migration done.
+2019-04-22 11:35:33,268 [Worker-3] INFO  com.tibco.bw.migration.logger  - Migrating process - BusinessProcesses/SubProcesses/Onboarding.process
+2019-04-22 11:35:33,271 [Worker-3] INFO  com.tibco.bw.migration.logger  - The process "BusinessProcesses.SubProcesses.Onboarding" migration started
+2019-04-22 11:35:33,582 [Worker-3] INFO  com.tibco.bw.migration.logger  - The process "BusinessProcesses.SubProcesses.Onboarding" migration done.
+2019-04-22 11:35:33,979 [Worker-3] INFO  com.tibco.bw.migration.logger  - Migrating process - BusinessProcesses/SubProcesses/Onboarding_New.process
+2019-04-22 11:35:33,982 [Worker-3] INFO  com.tibco.bw.migration.logger  - The process "BusinessProcesses.SubProcesses.Onboarding_New" migration started
+2019-04-22 11:35:34,286 [Worker-3] INFO  com.tibco.bw.migration.logger  - The process "BusinessProcesses.SubProcesses.Onboarding_New" migration done.
+2019-04-22 11:35:34,659 [Worker-3] INFO  com.tibco.bw.migration.logger  - Migrating process - BusinessProcesses/SubProcesses/PublishMsg_RV.process
+2019-04-22 11:35:34,664 [Worker-3] INFO  com.tibco.bw.migration.logger  - The process "BusinessProcesses.SubProcesses.PublishMsg_RV" migration started
+2019-04-22 11:35:34,965 [Worker-3] INFO  com.tibco.bw.migration.logger  - The process "BusinessProcesses.SubProcesses.PublishMsg_RV" migration done.
+2019-04-22 11:35:35,368 [Worker-3] INFO  com.tibco.bw.migration.logger  - Migrating process - BusinessProcesses/SubProcesses/SendMsg_JMS.process
+2019-04-22 11:35:35,371 [Worker-3] INFO  com.tibco.bw.migration.logger  - The process "BusinessProcesses.SubProcesses.SendMsg_JMS" migration started
+2019-04-22 11:35:36,042 [Worker-3] INFO  com.tibco.bw.migration.logger  - The process "BusinessProcesses.SubProcesses.SendMsg_JMS" migration done.
+2019-04-22 11:35:36,393 [Worker-3] INFO  com.tibco.bw.migration.logger  - Migrating process - Services/EmpMgrOperation.process
+2019-04-22 11:35:36,396 [Worker-3] INFO  com.tibco.bw.migration.logger  - The process "Services.EmpMgrOperation" migration started
+2019-04-22 11:35:36,996 [Worker-3] INFO  com.tibco.bw.migration.logger  - The process "Services.EmpMgrOperation" migration done.

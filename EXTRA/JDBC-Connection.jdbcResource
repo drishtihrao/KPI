@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:jdbc="http://xsd.tns.tibco.com/amf/models/sharedresource/jdbc" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_dpQDEGTEEemuUqs--VXqbg" name="Connections.JDBC-Connection" type="jdbc:JdbcDataSource">
+  <jndi:configuration xsi:type="jdbc:JdbcDataSource" xmi:id="_dpR4QGTEEemuUqs--VXqbg" username="admin" password="#!bMpkDssvCHJFn7CHrNAigP06blgKhxac">
+    <connectionConfig xsi:type="jdbc:NonXaConnection" xmi:id="_dpR4QWTEEemuUqs--VXqbg" jdbcDriver="com.microsoft.sqlserver.jdbc.SQLServerDriver" loginTimeout="0" dbURL="jdbc:sqlserver://CGEmployee.server.com:1433;databaseName=EMPLOYEE"/>
+  </jndi:configuration>
+</jndi:namedResource>

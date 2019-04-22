@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BWSharedResource>
+    <config>
+        <workerWeight>1</workerWeight>
+        <workerTasks>10</workerTasks>
+        <workerCompleteTime>0</workerCompleteTime>
+        <schedulerWeight>1</schedulerWeight>
+        <scheduleHeartbeat>1.0</scheduleHeartbeat>
+        <scheduleActivation>3.5</scheduleActivation>
+        <showExpertSettings>certified</showExpertSettings>
+        <daemon>%%RvDaemon%%</daemon>
+        <network>%%RvNetwork%%</network>
+        <service>%%RvService%%</service>
+        <cmName>CM.Publisher</cmName>
+        <ledgerFile>D:\Users\kirtjain\Downloads\TIBCO Softwares\LedgerFiles\CertifiedPublisher.ldg</ledgerFile>
+        <syncLedger>true</syncLedger>
+        <requireOld>true</requireOld>
+    </config>
+</BWSharedResource>
